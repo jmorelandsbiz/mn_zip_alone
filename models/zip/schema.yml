@@ -10,6 +10,9 @@ models:
     - name: mn_zip
       group: zip_codes
       access: public
+    - name: pre_mn_zip
+      group: zip_codes
+      access: protected
       config:
         contract:
           enforced: true

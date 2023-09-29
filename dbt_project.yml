@@ -39,4 +39,5 @@ models:
       schema: mn_zip_alone
     dim:
       materialized: incremental
+      unique_key: zip_id
       schema: zip_alone
